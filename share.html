@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hanh trinh tuoi 15</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css?v=20260329d" />
+  </head>
+  <body>
+    <div class="page-noise"></div>
+    <header class="site-header" data-site-header></header>
+
+    <main>
+      <section class="page-hero book-hero reveal">
+        <p class="eyebrow">Gui them mot dieu nho</p>
+        <h1>Neu con mot dieu chua kip noi, ban co the viet lai o day de trang ky niem nay tron ven hon.</h1>
+        <p>
+          O day co mot khung nho de ban tu xung ho theo cach ban muon va mot
+          khoang rong de gui tam thu cua minh.
+        </p>
+      </section>
+
+      <section class="share-form-wrap reveal">
+        <form class="share-form" data-share-form>
+          <label class="form-field">
+            <span>Co the goi ban la...</span>
+            <input
+              type="text"
+              name="nickname"
+              placeholder="Vi du: Ban cung lop, mot nguoi ban, nguoi di ngang ky niem..."
+              required
+            />
+          </label>
+
+          <label class="form-field">
+            <span>Tam thu cua ban</span>
+            <textarea
+              name="message"
+              rows="8"
+              placeholder="Viet dieu ban muon gui lai cho hanh trinh nay..."
+              required
+            ></textarea>
+          </label>
+
+          <div class="share-form-actions">
+            <button class="btn btn-primary" type="submit">Gui tam thu</button>
+            <p class="form-hint">Du lieu se duoc gui ve Google Sheets sau khi ban gan endpoint Apps Script.</p>
+          </div>
+
+          <p class="form-status" data-form-status aria-live="polite"></p>
+        </form>
+      </section>
+    </main>
+
+    <footer class="site-footer" data-site-footer></footer>
+
+    <script src="title-config.js?v=20260329d"></script>
+    <script src="script.js?v=20260329d"></script>
+  </body>
+</html>

@@ -1,40 +1,40 @@
-const body = document.body;
+﻿const body = document.body;
 body.classList.add("js-ready");
 const titleConfig = window.SITE_TITLE_CONFIG || {
-  siteTitle: "Hành trình tuổi 15",
+  siteTitle: "HÃ nh trÃ¬nh tuá»•i 15",
   separator: " | ",
   pageTitles: {},
 };
-const ASSET_VERSION = "20260329d";
+const ASSET_VERSION = "20260330a";
 const HEADER_FALLBACK = `
 <a class="brand" href="index.html">
   <span class="brand-script">A8</span>
-  <span class="brand-text">Hành trình tuổi 15</span>
+  <span class="brand-text">HÃ nh trÃ¬nh tuá»•i 15</span>
 </a>
 <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
   Menu
 </button>
 <nav class="site-nav" id="site-nav">
-  <a data-page-link="index.html" href="index.html">Trang mở đầu</a>
-  <a data-page-link="day1.html" href="day1.html">Ngày 1</a>
-  <a data-page-link="day2.html" href="day2.html">Ngày 2</a>
-  <a data-page-link="day3.html" href="day3.html">Ngày 3</a>
-  <a data-page-link="day4.html" href="day4.html">Ngày 4</a>
-  <a data-page-link="thanks.html" href="thanks.html">Những bức tâm thư</a>
+  <a data-page-link="index.html" href="index.html">Trang má»Ÿ Ä‘áº§u</a>
+  <a data-page-link="day1.html" href="day1.html">NgÃ y 1</a>
+  <a data-page-link="day2.html" href="day2.html">NgÃ y 2</a>
+  <a data-page-link="day3.html" href="day3.html">NgÃ y 3</a>
+  <a data-page-link="day4.html" href="day4.html">NgÃ y 4</a>
+  <a data-page-link="thanks.html" href="thanks.html">Nhá»¯ng bá»©c tÃ¢m thÆ°</a>
 </nav>
 <div class="header-tools">
-  <button class="info-trigger" type="button" aria-expanded="false" aria-controls="info-popup">ⓘ about</button>
+  <button class="info-trigger" type="button" aria-expanded="false" aria-controls="info-popup">â“˜ about</button>
   <div class="info-popup" id="info-popup" hidden>
     <div class="about-content">
-      <strong>Về trang này</strong>
+      <strong>Vá» trang nÃ y</strong>
       <p>
-        Trang này được làm ra trong lúc <b>cậu be</b> đang rất lụy chuyến đi này.
-        <b>Cậu be</b> muốn lưu giữ lại những kỉ niệm thật đẹp ở tuổi 15 này nên
-        đã làm ra trang web này, để sau này mở lại vẫn thấy được không khí đầy
-        mùi kỉ niệm của 4 ngày 3 đêm đó. Mãi iu <b>A8</b> ❤️❤️❤️
+        Trang nÃ y Ä‘Æ°á»£c lÃ m ra trong lÃºc <b>cáº­u be</b> Ä‘ang ráº¥t lá»¥y chuyáº¿n Ä‘i nÃ y.
+        <b>Cáº­u be</b> muá»‘n lÆ°u giá»¯ láº¡i nhá»¯ng ká»‰ niá»‡m tháº­t Ä‘áº¹p á»Ÿ tuá»•i 15 nÃ y nÃªn
+        Ä‘Ã£ lÃ m ra trang web nÃ y, Ä‘á»ƒ sau nÃ y má»Ÿ láº¡i váº«n tháº¥y Ä‘Æ°á»£c khÃ´ng khÃ­ Ä‘áº§y
+        mÃ¹i ká»‰ niá»‡m cá»§a 4 ngÃ y 3 Ä‘Ãªm Ä‘Ã³. MÃ£i iu <b>A8</b> â¤ï¸â¤ï¸â¤ï¸
       </p>
-      <p><b>Tác giả:</b> cậu be</p>
-      <p><b>In4 cậu be: ⬇️⬇️</b></p>
+      <p><b>TÃ¡c giáº£:</b> cáº­u be</p>
+      <p><b>In4 cáº­u be: â¬‡ï¸â¬‡ï¸</b></p>
       <div class="about-socials" style="display:grid;gap:.7rem;margin-top:.95rem;">
         <a class="about-btn" href="https://www.facebook.com/ng.an.huyyy/" target="_blank" rel="noreferrer" style="display:inline-flex;align-items:center;justify-content:center;gap:.55rem;width:100%;min-width:0;min-height:42px;padding:.75rem 1rem;border:1px solid rgba(59,52,65,.04);border-radius:999px;background:#7e6e72;color:#fff;font-weight:700;text-decoration:none;box-shadow:0 10px 20px rgba(94,79,74,.14);-webkit-appearance:none;appearance:none;">
           <span class="logo face" style="flex:0 0 auto;display:inline-grid;place-items:center;width:22px;height:22px;border-radius:50%;background:#fff;color:#1877f2;font-family:Arial,sans-serif;font-weight:800;">f</span>
@@ -49,7 +49,7 @@ const HEADER_FALLBACK = `
   </div>
 </div>
 `;
-const FOOTER_FALLBACK = `<p>By <b>cậu be</b>. Made for A8</p>`;
+const FOOTER_FALLBACK = `<p>By <b>cáº­u be</b>. Made for A8</p>`;
 
 const currentPage = window.location.pathname.split("/").pop() || "index.html";
 const currentPageTitle = titleConfig.pageTitles[currentPage];
@@ -202,10 +202,10 @@ window.setTimeout(() => {
 }, 600);
 
 const quotes = [
-  "\"Một trang giấy nhỏ cũng đủ giữ lại một ngày thật đẹp.\"",
-  "\"Có những kỉ niệm càng nhẹ thì càng ở lại lâu.\"",
-  "\"Tuổi 15 của chúng mình được gặp lại trong từng trang lưu bút.\"",
-  "\"Bốn ngày trôi qua, nhưng sự dịu dàng thì vẫn nằm yên ở đây.\"",
+  '"Má»™t trang giáº¥y nhá» cÅ©ng Ä‘á»§ giá»¯ láº¡i má»™t ngÃ y tháº­t Ä‘áº¹p."',
+  '"CÃ³ nhá»¯ng ká»‰ niá»‡m cÃ ng nháº¹ thÃ¬ cÃ ng á»Ÿ láº¡i lÃ¢u."',
+  '"Tuá»•i 15 cá»§a chÃºng mÃ¬nh Ä‘Æ°á»£c gáº·p láº¡i trong tá»«ng trang lÆ°u bÃºt."',
+  '"Bá»‘n ngÃ y trÃ´i qua, nhÆ°ng sá»± dá»‹u dÃ ng thÃ¬ váº«n náº±m yÃªn á»Ÿ Ä‘Ã¢y."',
 ];
 
 const randomQuote = document.querySelector("[data-random-quote]");
@@ -269,7 +269,6 @@ function renderThanksMessages(thanksMessages) {
         <article class="friend-note${category === "guest" ? " special" : ""}" data-category="${escapeHtml(category)}">
           <span class="paper-label">${escapeHtml(name)}</span>
           ${title ? `<h2>${escapeHtml(title)}</h2>` : ""}
-          <p class="friend-category">${escapeHtml(formatCategoryLabel(category))}</p>
           ${paragraphs}
         </article>
       `;
@@ -346,16 +345,6 @@ function renderAlbumCards(photos) {
     .join("");
 }
 
-function formatCategoryLabel(category) {
-  const labels = {
-    ban: "Ban cung lop",
-    guest: "Khach moi dac biet",
-    teacher: "Thay co",
-  };
-
-  return labels[category] || category;
-}
-
 function escapeHtml(value) {
   return String(value)
     .replaceAll("&", "&amp;")
@@ -365,7 +354,7 @@ function escapeHtml(value) {
     .replaceAll("'", "&#39;");
 }
 
-const GOOGLE_SHEETS_ENDPOINT = "";
+const GOOGLE_SHEETS_ENDPOINT = "https://script.google.com/macros/s/AKfycbwMoLU_EaUrqb0OrYSWyWYZIwaBH94LSdlCztM9PkByCgxcsm5Vtt1LgBSMSDoALR2B/exec";
 const shareForm = document.querySelector("[data-share-form]");
 const formStatus = document.querySelector("[data-form-status]");
 
@@ -384,32 +373,72 @@ if (shareForm && formStatus) {
 
     if (!GOOGLE_SHEETS_ENDPOINT) {
       formStatus.textContent =
-        "Chưa có endpoint Google Sheets. Hãy thêm link Apps Script vào script.js để lưu dữ liệu.";
+        "ChÆ°a cÃ³ endpoint Google Sheets. HÃ£y thÃªm link Apps Script vÃ o script.js Ä‘á»ƒ lÆ°u dá»¯ liá»‡u.";
       return;
     }
 
-    formStatus.textContent = "Đang gửi tâm thư...";
+    formStatus.textContent = "Dang gui tam thu...";
 
     try {
-      const response = await fetch(GOOGLE_SHEETS_ENDPOINT, {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(payload),
-      });
-
-      if (!response.ok) {
-        throw new Error("submit_failed");
-      }
-
-      formStatus.textContent = "Gửi thành công rồi nè.";
+      await submitToGoogleSheets(payload);
+      formStatus.textContent = "Gui thanh cong roi ne.";
       shareForm.reset();
     } catch (error) {
       formStatus.textContent =
-        "Gửi chưa thành công. Kiểm tra lại endpoint Google Sheets hoặc quyền truy cập nha.";
+        "Gui chua thanh cong. Kiem tra lai endpoint Google Sheets hoac quyen truy cap nha.";
     }
   });
 }
 
 Promise.all([loadSharedHeader(), loadSharedFooter()]);
+
+function submitToGoogleSheets(payload) {
+  return new Promise((resolve, reject) => {
+    const frameName = `google-sheets-target-${Date.now()}`;
+    const iframe = document.createElement("iframe");
+    iframe.name = frameName;
+    iframe.hidden = true;
+
+    const tempForm = document.createElement("form");
+    tempForm.method = "POST";
+    tempForm.action = GOOGLE_SHEETS_ENDPOINT;
+    tempForm.target = frameName;
+    tempForm.hidden = true;
+
+    Object.entries(payload).forEach(([key, value]) => {
+      const input = document.createElement("input");
+      input.type = "hidden";
+      input.name = key;
+      input.value = String(value ?? "");
+      tempForm.appendChild(input);
+    });
+
+    let settled = false;
+    const cleanup = () => {
+      window.clearTimeout(timeoutId);
+      iframe.remove();
+      tempForm.remove();
+    };
+    const finish = (callback) => {
+      if (settled) {
+        return;
+      }
+      settled = true;
+      cleanup();
+      callback();
+    };
+
+    const timeoutId = window.setTimeout(() => {
+      finish(() => reject(new Error("submit_timeout")));
+    }, 12000);
+
+    iframe.addEventListener("load", () => {
+      finish(resolve);
+    });
+
+    document.body.appendChild(iframe);
+    document.body.appendChild(tempForm);
+    tempForm.submit();
+  });
+}
+

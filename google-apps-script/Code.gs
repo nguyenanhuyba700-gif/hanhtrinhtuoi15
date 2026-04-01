@@ -1,12 +1,12 @@
-function doPost(e) {
+﻿function doPost(e) {
   try {
     var config = getConfig_();
-    var sheet = SpreadsheetApp.openById(config.spreadsheetId).getSheetByName(
-      config.sheetName
-    );
+    var spreadsheet = SpreadsheetApp.openById(config.spreadsheetId);
+    var sheet =
+      spreadsheet.getSheetByName(config.sheetName) || spreadsheet.getSheets()[0];
 
     if (!sheet) {
-      throw new Error("Sheet not found: " + config.sheetName);
+      throw new Error("No sheet tab available in spreadsheet.");
     }
 
     var payload = parsePayload_(e);
@@ -42,17 +42,29 @@ function doGet() {
 
 function parsePayload_(e) {
   if (!e || !e.postData || !e.postData.contents) {
-    throw new Error("Missing request body.");
+    if (!e || !e.parameter) {
+      throw new Error("Missing request body.");
+    }
+
+    return normalizePayload_(e.parameter);
   }
 
-  var data = JSON.parse(e.postData.contents);
+  var contentType = String(e.postData.type || "");
 
+  if (contentType.indexOf("application/json") !== -1) {
+    return normalizePayload_(JSON.parse(e.postData.contents));
+  }
+
+  return normalizePayload_(e.parameter);
+}
+
+function normalizePayload_(data) {
   return {
     nickname: String(data.nickname || "").trim(),
     message: String(data.message || "").trim(),
     page: String(data.page || "").trim(),
     submitted_at: String(data.submitted_at || "").trim(),
-    user_agent: String(data.user_agent || "").trim(),
+    user_agent: String(data.user_agent || "").trim()
   };
 }
 
@@ -65,6 +77,6 @@ function jsonResponse_(data) {
 function getConfig_() {
   return {
     spreadsheetId: "PUT_YOUR_SPREADSHEET_ID_HERE",
-    sheetName: "Messages",
+    sheetName: "Sheet1",
   };
 }

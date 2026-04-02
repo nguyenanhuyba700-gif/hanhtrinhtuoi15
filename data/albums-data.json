@@ -1,0 +1,163 @@
+{
+  "_comment": "Cac tone co the dung cho truong tone: soft-rose, soft-sky, soft-sage, soft-sand, soft-lilac, soft-peach, soft-mint, soft-butter, soft-latte, soft-cloud, soft-blush, soft-seafoam.",
+  "_availableTones": [
+    "soft-rose",
+    "soft-sky",
+    "soft-sage",
+    "soft-sand",
+    "soft-lilac",
+    "soft-peach",
+    "soft-mint",
+    "soft-butter",
+    "soft-latte",
+    "soft-cloud",
+    "soft-blush",
+    "soft-seafoam"
+  ],
+  "day1": {
+    "photos": [
+      {
+        "label": "Anh 021",
+        "title": "Luc xe lan banh",
+        "description": "Vua on ao vua dang yeu. Co ban con ngai ngu, co ban da bat dau mo nhac, co ban tranh thu chup may tam anh mo dau cho hanh trinh.",
+        "photoText": "Khoi hanh",
+        "imageSrc": "",
+        "imageAlt": "Khoi hanh",
+        "tone": "soft-rose",
+        "layout": "tall"
+      },
+      {
+        "label": "Anh 02",
+        "title": "Khung cua so ben duong",
+        "description": "Nhin ben ngoai thay troi rat trong, con ben trong la mot nhom ban be dang cham cham di vao ky niem cua chinh minh.",
+        "photoText": "Cua so",
+        "imageSrc": "",
+        "imageAlt": "Khung cua so ben duong",
+        "tone": "soft-sky",
+        "layout": ""
+      },
+      {
+        "label": "Anh 03",
+        "title": "Buoi check-in dau tien",
+        "description": "Chua can canh qua dep, cung chua can tao dang qua nhieu. Vi dieu lam buc anh dep nhat van la viec ai cung co mat trong do, dung tuoi 15 va dung luc ay.",
+        "photoText": "Check-in",
+        "imageSrc": "",
+        "imageAlt": "Buoi check-in dau tien",
+        "tone": "soft-sand",
+        "layout": "wide"
+      }
+    ]
+  },
+  "day2": {
+    "photos": [
+      {
+        "label": "Anh 01",
+        "title": "Buoi sang ngoai troi",
+        "description": "Anh sang rat diu, ai cung xinh theo cach rieng, va nhung tieng cuoi nghe nhu dang vang len ro hon ca ngay thuong.",
+        "photoText": "Ngoai troi",
+        "imageSrc": "images/day2-01.jpg",
+        "imageAlt": "Buoi sang ngoai troi",
+        "tone": "soft-sage",
+        "layout": ""
+      },
+      {
+        "label": "Anh 02",
+        "title": "Nhung buc anh nhom",
+        "description": "Chup den lan thu may cung khong quan trong nua, vi chinh khoanh khac dung sat canh nhau moi la dieu dang giu lai.",
+        "photoText": "Anh nhom",
+        "imageSrc": "images/day2-02.jpg",
+        "imageAlt": "Nhung buc anh nhom",
+        "tone": "soft-rose",
+        "layout": "tall"
+      },
+      {
+        "label": "Anh 03",
+        "title": "Buoi chieu lang nhin lai",
+        "description": "Neu Ngay 1 la su hao huc, thi Ngay 2 la luc minh that su song trong hanh trinh. Moi canh dep, moi doan duong deu tro thanh mot nen nho cho tuoi 15.",
+        "photoText": "Buoi chieu",
+        "imageSrc": "images/day2-03.jpg",
+        "imageAlt": "Buoi chieu lang nhin lai",
+        "tone": "soft-sky",
+        "layout": "wide"
+      },
+      {
+        "label": "Anh 04",
+        "title": "Hoang hon nho",
+        "description": "Mot buc anh nhe va lang nhin lai ngay thu hai.",
+        "photoText": "Hoang hon",
+        "imageSrc": "images/day2-04.jpg",
+        "imageAlt": "Hoang hon ngay thu hai",
+        "tone": "soft-sand",
+        "layout": "tall"
+      }
+    ]
+  },
+  "day3": {
+    "photos": [
+      {
+        "label": "Anh 01",
+        "title": "Buoi chieu cham lai",
+        "description": "Sau nhung gio di chuyen, den luc duoc ngoi xuong canh nhau, ai cung thay duoc su yen tam nho xiu trong chuyen di nay.",
+        "photoText": "Buoi chieu",
+        "imageSrc": "",
+        "imageAlt": "Buoi chieu cham lai",
+        "tone": "soft-sand",
+        "layout": ""
+      },
+      {
+        "label": "Anh 02",
+        "title": "Dem cua nhung loi ke",
+        "description": "Khong can mot san khau lon, chi can mot khoang troi toi va nhung nguoi ban quen thuoc, the la du de buoi toi thanh dep.",
+        "photoText": "Buoi toi",
+        "imageSrc": "",
+        "imageAlt": "Dem cua nhung loi ke",
+        "tone": "soft-rose",
+        "layout": "wide"
+      },
+      {
+        "label": "Anh 03",
+        "title": "Luc biet minh dang o trong mot ky niem",
+        "description": "Co le dieu dac biet nhat cua Ngay 3 la ai cung da bat dau tiet. Chuyen di chua ket thuc, nhung trai tim thi da muon giu lai tung khoanh khac rat nho.",
+        "photoText": "Ky niem",
+        "imageSrc": "",
+        "imageAlt": "Luc biet minh dang o trong mot ky niem",
+        "tone": "soft-sky",
+        "layout": ""
+      }
+    ]
+  },
+  "day4": {
+    "photos": [
+      {
+        "label": "Anh 01",
+        "title": "Buoi sang cuoi",
+        "description": "Van la nhung guong mat do, nhung da co them mot chut luu luyen. Moi nguoi di cham hon, nhin quanh nhieu hon, nhu muon nho them mot chut.",
+        "photoText": "Buoi sang",
+        "imageSrc": "",
+        "imageAlt": "Buoi sang cuoi",
+        "tone": "soft-sky",
+        "layout": ""
+      },
+      {
+        "label": "Anh 02",
+        "title": "Luc xep do tro ve",
+        "description": "Khong chi la xep quan ao, ma la gap lai nhung ngay dep vua mo ra. Ca chuyen di gon vao vali, nhung ky niem thi o lai ben trong.",
+        "photoText": "Xep do",
+        "imageSrc": "",
+        "imageAlt": "Luc xep do tro ve",
+        "tone": "soft-sand",
+        "layout": ""
+      },
+      {
+        "label": "Anh 03",
+        "title": "Chuyen xe tro ve",
+        "description": "Moi nguoi co the met hon, yen hon, nhung ai cung dem theo mot phien ban rat dep cua tuoi 15. Chuyen di khong con o ngoai kia nua, ma da nam yen trong tri nho.",
+        "photoText": "Tro ve",
+        "imageSrc": "",
+        "imageAlt": "Chuyen xe tro ve",
+        "tone": "soft-rose",
+        "layout": "wide"
+      }
+    ]
+  }
+}
